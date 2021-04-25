@@ -7,7 +7,7 @@
             <h5 class="centered">Marcel Newman</h5>
 
             <li class="mt">
-                <a class="active" href="/menu">
+                <a class="active" href="/home">
                     <i class="fa fa-dashboard"></i>
                     <span>Dashboard</span>
                 </a>
@@ -16,11 +16,22 @@
             <li class="sub-menu">
                 <a href="javascript:;">
                     <i class="fa fa-desktop"></i>
-                    <span>Stok Barang</span>
+                    <span>Pengaturan Supplier/Toko</span>
                 </a>
                 <ul class="sub">
-                    <li><a href="/create">Tambah Stok Barang</a></li>
-                    <li><a href="buttons.html">Sisa Barang</a></li>
+                    <li><a href="/supplier">Lihat Supplier</a></li>
+                    <li><a href="/supplier/tambah">Tambah Supplier</a></li>
+                </ul>
+            </li>
+
+            <li class="sub-menu">
+                <a href="javascript:;">
+                    <i class="fa fa-list"></i>
+                    <span>Pengaturan Produk</span>
+                </a>
+                <ul class="sub">
+                    <li><a href="/produk">Lihat Data Produk</a></li>
+                    <li><a href="/produk/tambah">Tambah Data Produk</a></li>
                 </ul>
             </li>
 
